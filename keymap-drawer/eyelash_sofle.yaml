@@ -62,7 +62,7 @@ layers:
   - PLAY PAUSE
   - {t: '$$mdi:keyboard-space$$', h: code}
   - {t: '$$mdi:keyboard-return$$', h: fkeys}
-  - RIGHT WIN
+  - RWIN
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   arrows:
