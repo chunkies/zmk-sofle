@@ -67,11 +67,11 @@
 
         arrows {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans        &trans     &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans        &trans     &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp HOME  &kp PAGE_DOWN   &kp PG_UP     &kp END    &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans        &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans         &trans     &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans         &trans     &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp HOME  &kp PG_UP       &kp PAGE_DOWN  &kp END    &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans    &trans          &trans         &trans
             >;
         };
 
