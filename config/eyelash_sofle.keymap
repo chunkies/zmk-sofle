@@ -28,7 +28,7 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&mt { tapping-term-ms = <300>; };
+&mt { tapping-term-ms = <150>; };
 
 / {
     scroll_encoder: scroll_encoder {
@@ -56,11 +56,11 @@
 
         layer0 {
             bindings = <
-&kp ESC         &kp N1          &kp N2           &kp N3        &kp N4            &kp N5             &kp C_FAST_FORWARD  &kp N6       &kp N7             &kp N8       &kp N9           &kp N0                   &lt 6 TILDE
-&kp TAB         &kp Q           &kp W            &kp E         &kp R             &kp T              &kp C_REWIND        &kp Y        &kp U              &kp I        &kp O            &kp P                    &kp BSLH
-&kp LEFT_SHIFT  &mt LWIN A      &mt LEFT_ALT S   &mt LCTRL D   &mt LEFT_SHIFT F  &kp G              &kp C_PREVIOUS      &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp APOS
-&kp LCTRL       &kp Z           &kp X            &kp C         &kp V             &kp B              &kp C_NEXT          &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp CAPS
-&kp C_MUTE      &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT  &lt 2 DELETE      &lt 1 BACKSPACE    &kp K_PLAY_PAUSE    &lt 3 SPACE  &lt 4 ENTER        &kp RWIN     &kp UP_ARROW     &kp DOWN_ARROW
+&kp ESC                  &kp N1          &kp N2           &kp N3        &kp N4            &kp N5             &kp C_FAST_FORWARD  &kp N6       &kp N7             &kp N8       &kp N9           &kp N0                   &lt 6 TILDE
+&kp TAB                  &kp Q           &kp W            &kp E         &kp R             &kp T              &kp C_REWIND        &kp Y        &kp U              &kp I        &kp O            &kp P                    &kp BSLH
+&mt LEFT_SHIFT CAPSLOCK  &mt LWIN A      &mt LEFT_ALT S   &mt LCTRL D   &mt LEFT_SHIFT F  &kp G              &kp C_PREVIOUS      &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp APOS
+&kp LCTRL                &kp Z           &kp X            &kp C         &kp V             &kp B              &kp C_NEXT          &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &trans
+&kp C_MUTE               &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT  &lt 2 DELETE      &lt 1 BACKSPACE    &kp K_PLAY_PAUSE    &lt 3 SPACE  &lt 4 ENTER        &kp RWIN     &kp UP_ARROW     &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
