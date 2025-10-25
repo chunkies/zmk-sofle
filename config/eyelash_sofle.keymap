@@ -88,9 +88,9 @@
         code {
             bindings = <
 &trans          &trans            &kp HASH              &trans                 &trans             &trans             &trans  &trans  &trans          &trans     &trans         &trans    &trans
-&kp TILDE       &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp CARET          &trans  &trans  &trans          &trans     &trans         &trans    &trans
+&kp TILDE       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp CARET          &trans  &trans  &trans          &trans     &trans         &trans    &trans
 &kp PIPE        &kp LESS_THAN     &kp EQUAL             &kp UNDER              &kp GREATER_THAN   &kp QUESTION       &trans  &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RWIN  &trans
-&kp AMPERSAND   &kp LEFT_BRACKET  &kp PLUS              &kp MINUS              &kp RIGHT_BRACKET  &kp EXCLAMATION    &trans  &trans  &trans          &trans     &trans         &trans    &trans
+&kp AMPERSAND   &kp LEFT_BRACE    &kp PLUS              &kp MINUS              &kp RIGHT_BRACE    &kp EXCLAMATION    &trans  &trans  &trans          &trans     &trans         &trans    &trans
 &kp SCROLLLOCK  &kp ASTERISK      &kp SLASH             &trans                 &kp COLON          &kp GRAVE          &trans  &trans  &trans          &trans     &trans         &trans
             >;
 
