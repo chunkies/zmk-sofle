@@ -89,14 +89,14 @@
 
         code {
             bindings = <
-&trans          &kp EXCLAMATION   &kp AT_SIGN           &kp HASH               &kp DOLLAR         &kp PERCENT          &trans  &trans  &trans          &trans     &trans         &trans    &trans
-&kp TILDE       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp CARET            &trans  &trans  &trans          &trans     &trans         &trans    &trans
-&kp PIPE        &kp LESS_THAN     &kp EQUAL             &kp UNDER              &kp GREATER_THAN   &kp QUESTION         &trans  &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RWIN  &trans
-&kp AMPERSAND   &kp LEFT_BRACE    &kp PLUS              &kp MINUS              &kp RIGHT_BRACE    &kp EXCLAMATION      &trans  &trans  &trans          &trans     &trans         &trans    &trans
-&kp SCROLLLOCK  &kp ASTERISK      &kp SLASH             &kt COLON              &kp GRAVE          &kp DOUBLE_QUOTES    &trans  &trans  &trans          &trans     &trans         &trans
+&trans          &trans            &kp HASH              &trans                 &trans             &trans             &trans  &trans  &trans          &trans     &trans         &trans    &trans
+&kp TILDE       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp CARET          &trans  &trans  &trans          &trans     &trans         &trans    &trans
+&kp PIPE        &kp LESS_THAN     &kp EQUAL             &kp UNDER              &kp GREATER_THAN   &kp QUESTION       &trans  &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RWIN  &trans
+&kp AMPERSAND   &kp LEFT_BRACE    &kp PLUS              &kp MINUS              &kp RIGHT_BRACE    &kp EXCLAMATION    &trans  &trans  &trans          &trans     &trans         &trans    &trans
+&kp SCROLLLOCK  &kp ASTERISK      &kp SLASH             &trans                 &kp COLON          &kp GRAVE          &trans  &trans  &trans          &trans     &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         fkeys {
