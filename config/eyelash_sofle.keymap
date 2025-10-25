@@ -125,10 +125,10 @@
 
         game {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans         &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans         &trans
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &trans       &trans  &trans  &kp J   &kp K   &kp L   &kp SEMICOLON  &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans         &trans
 &trans          &trans  &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
