@@ -42,6 +42,17 @@
         tap-ms = <100>;
     };
 
+    hm: hm {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HM";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <400>;
+        quick-tap-ms = <400>;
+        require-prior-idle-ms = <400>;
+    };
+
     behaviors {
     };
 
@@ -61,8 +72,8 @@
             bindings = <
 &kp ESC                  &kp N1          &kp N2           &kp N3        &kp N4            &kp N5             &kp C_FAST_FORWARD  &kp N6       &kp N7             &kp N8       &kp N9           &kp N0                   &lt 6 TILDE
 &kp TAB                  &kp Q           &kp W            &kp E         &kp R             &kp T              &kp C_REWIND        &kp Y        &kp U              &kp I        &kp O            &kp P                    &kp BSLH
-&mt LEFT_SHIFT CAPSLOCK  &mt LWIN A      &mt LEFT_ALT S   &mt LCTRL D   &mt LEFT_SHIFT F  &kp G              &kp C_PREVIOUS      &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp APOS
-&kp LCTRL                &kp Z           &kp X            &kp C         &kp V             &kp B              &kp C_NEXT          &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &trans
+&hm LEFT_SHIFT CAPSLOCK  &hm LWIN A      &hm LEFT_ALT S   &hm LCTRL D   &hm LEFT_SHIFT F  &kp G              &kp C_PREVIOUS      &kp H        &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON  &kp APOS
+&kp LCTRL                &kp Z           &kp X            &kp C         &kp V             &kp B              &kp C_NEXT          &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp RIGHT_SHIFT
 &kp C_MUTE               &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT  &lt 2 DELETE      &lt 1 BACKSPACE    &kp K_PLAY_PAUSE    &lt 3 SPACE  &lt 4 ENTER        &kp RWIN     &kp UP_ARROW     &kp DOWN_ARROW
             >;
 
