@@ -30,7 +30,7 @@
 
 &mt {
     tapping-term-ms = <150>;
-    quick-tap-ms = <175>;
+    hold-trigger-on-release;
 };
 
 / {
