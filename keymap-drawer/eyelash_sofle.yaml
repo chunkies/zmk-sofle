@@ -458,3 +458,5 @@ layers:
 combos:
 - p: [57, 59]
   k: {t: game, h: toggle}
+- p: [57, 56]
+  k: '&alt_tab'
