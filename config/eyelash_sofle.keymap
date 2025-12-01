@@ -73,16 +73,11 @@
     };
 
     macros {
-        alt_tab: alt_tab {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&to 1 &mt LA(LEFT_ALT) TAB &kp TAB>,
-                <&macro_release>,
-                <&kp TAB &to 0>;
-
-            label = "ALT_TAB";
+            bindings = <&none>;
+            label = "NEW_MACRO";
         };
     };
 
